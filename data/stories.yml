@@ -12,26 +12,24 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_ask_how_help
-  - intent: internship_what_is
-  - action: utter_internship_definition
+  - intent: healthcare
+  - action: action_utter_healthcare
 - story: story 013
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
   - action: utter_ask_how_help
-  - intent: internship_how_to_find
-  - action: utter_internship_how_to_find
+  - intent: healthcare
+  - action: action_utter_healthcare
 - story: story 014
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
   - action: utter_ask_how_help
-  - intent: internship_when
-  - action: utter_internship_when
-  - intent: thankyou
-  - action: utter_you_are_welcome
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: goodbye
   - action: utter_goodbye
 - story: story 015
@@ -40,10 +38,8 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_ask_how_help
-  - intent: internship_academic_credit
-  - action: utter_internship_academic_credit
-  - intent: thankyou
-  - action: utter_you_are_welcome
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: goodbye
   - action: utter_goodbye
 - story: story 016
@@ -52,255 +48,82 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_ask_how_help
-  - intent: internship_how_to_find_good_job
-  - action: utter_internship_how_to_find_good_job
-  - intent: thankyou
-  - action: utter_you_are_welcome
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: goodbye
   - action: utter_goodbye
 - story: ask internship_what_is
   steps:
-  - intent: internship_what_is
-  - action: utter_internship_definition
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: thankyou
   - action: utter_you_are_welcome
   - intent: goodbye
   - action: utter_goodbye
 - story: ask internship_benefit
   steps:
-  - intent: internship_benefit
-  - action: utter_internship_benefit
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: thankyou
   - action: utter_you_are_welcome
   - intent: goodbye
   - action: utter_goodbye
 - story: ask internship_how_to_find
   steps:
-  - intent: internship_how_to_find
-  - action: utter_internship_how_to_find
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: thankyou
   - action: utter_you_are_welcome
   - intent: goodbye
   - action: utter_goodbye
 - story: ask internship_when
   steps:
-  - intent: internship_when
-  - action: utter_internship_when
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: thankyou
   - action: utter_you_are_welcome
   - intent: goodbye
   - action: utter_goodbye
 - story: ask internship_academic_credit
   steps:
-  - intent: internship_academic_credit
-  - action: utter_internship_academic_credit
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: thankyou
   - action: utter_you_are_welcome
   - intent: goodbye
   - action: utter_goodbye
 - story: ask internship_no_experience
   steps:
-  - intent: internship_no_experience
-  - action: utter_internship_with_no_experience
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: thankyou
   - action: utter_you_are_welcome
   - intent: goodbye
   - action: utter_goodbye
 - story: ask internship_how_to_find_good_job
   steps:
-  - intent: internship_how_to_find_good_job
-  - action: utter_internship_how_to_find_good_job
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: thankyou
   - action: utter_you_are_welcome
   - intent: goodbye
   - action: utter_goodbye
 - story: ask internship_what_is
   steps:
-  - intent: internship_salary
-  - action: utter_internship_salary
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: thankyou
   - action: utter_you_are_welcome
   - intent: goodbye
   - action: utter_goodbye
-- story: ask internship_work_hour
-  steps:
-  - intent: internship_work_hour
-  - action: utter_internship_work_hour
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_avoid
-  steps:
-  - intent: internship_avoid
-  - action: utter_internship_avoid
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_requirement_for_credit
-  steps:
-  - intent: internship_requirement_for_credit
-  - action: utter_internship_requirement_to_get_credit
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_role_and_responsibility
-  steps:
-  - intent: internship_role_and_responsibility
-  - action: utter_internship_role_and_responsibility
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_where_and_which_places
-  steps:
-  - intent: internship_where_and_which_places
-  - action: utter_internship_where_and_which_places
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_about_the_assignment
-  steps:
-  - intent: internship_about_the_assignment
-  - action: utter_internship_about_the_assignment
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_note
-  steps:
-  - intent: internship_note
-  - action: utter_internship_note
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_purpose
-  steps:
-  - intent: internship_purpose
-  - action: utter_internship_purpose
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_result
-  steps:
-  - intent: internship_result
-  - action: utter_internship_result
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_content
-  steps:
-  - intent: internship_content
-  - action: utter_internship_content
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_diff_employee
-  steps:
-  - intent: internship_diff_employee
-  - action: utter_internship_diff_employee
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_plan
-  steps:
-  - intent: internship_plan
-  - action: action_utter_internship_plan
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_requirement_for_complete
-  steps:
-  - intent: internship_requirement_for_complete
-  - action: utter_internship_requirement_for_complete
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_after_finish
-  steps:
-  - intent: internship_after_finish
-  - action: utter_internship_after_finish
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: ask internship_how_to_choose
-  steps:
-  - intent: internship_how_to_choose
-  - action: utter_internship_how_to_choose
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: interactive_story_1
-  steps:
-  - intent: internship_what_is
-  - action: utter_internship_definition
-  - intent: internship_benefit
-  - action: utter_internship_benefit
-  - intent: internship_how_to_find
-  - action: utter_internship_how_to_find
-  - intent: internship_role_and_responsibility
-  - action: utter_internship_role_and_responsibility
-  - intent: thankyou
-  - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
+
 - story: interactive_story_1
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: internship_what_is
-  - action: utter_internship_definition
-  - intent: internship_diff_employee
-  - action: utter_internship_diff_employee
+  - intent: mood_great
+  - action: utter_happy
+  - intent: healthcare
+  - action: action_utter_healthcare
   - intent: thankyou
   - action: utter_you_are_welcome
-  - intent: goodbye
-  - action: utter_goodbye
-- story: Story from Conversation ID dfaf19a449f1468d9a6f9be51a0b0fc4
-  steps:
-  - intent: internship_what_is
-  - action: utter_internship_definition
-  - intent: internship_purpose
-  - action: utter_internship_purpose
-  - intent: internship_how_to_find
-  - action: utter_internship_how_to_find
-  - intent: internship_benefit
-  - action: utter_internship_benefit
-  - intent: internship_plan
-  - action: action_utter_internship_plan
-
-- story: ask internship_thoi_gian
-  steps:
-    - intent: internship_thoi_gian
-    - action: utter_internship_thoi_gian
-
-- story: ask internship_thoi_gian
-  steps:
-    - intent: greet
-    - action: utter_greet
-    - intent: internship_thoi_gian
-    - action: utter_internship_thoi_gian
-
-- story: ask internship_lam_sao
-  steps:
-    - intent: internship_lam_sao
-    - action: utter_internship_lam_sao
-
-- story: ask internship_lam_sao 2
-  steps:
-    - intent: greet
-    - action: utter_greet
-    - intent: internship_lam_sao
-    - action: utter_internship_lam_sao

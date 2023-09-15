@@ -85,8 +85,8 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-    - Fine! Thanks
     - Fine
+    - I'm fine and u?
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -109,217 +109,27 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-- intent: internship_what_is
+- intent: healthcare
   examples: |
-    - What is an internship?
-    - What is internship?
-    - Definition of internship?
-    - An internship is what?
-    - What exactly is an internship?
-    - Internship: what is it?
-    - What is an intern program?
-    - What is an internship program?
-- intent: internship_benefit
-  examples: |
-    - What are the benefits of an internship?
-    - Some benefits of an internship
-    - Benefits of an internship
-    - Please provide benefits of an internship
-    - Why should I do an internship?
-    - How about some benefits of an internship
-- intent: internship_how_to_find
-  examples: |
-    - How do I find an internship?
-    - How to apply for an internship?
-    - Where can I find an internship?
-    - Find an internship
-    - How do I choose the right internship?
-    - OK. So how do I find an internship?
-- intent: internship_when
-  examples: |
-    - When is a good time to start looking for an internship?
-    - When to look for an internship?
-    - When should I apply for an internship
-    - When should I do internship?
-    - Please suggest good time to find internship
-    - Suggest best time to find internship
-- intent: internship_academic_credit
-  examples: |
-    - Can I get academic credit for my internship?
-    - Do I get academic credit for internship?
-    - Academic credit for internship?
-    - Does internship have academic credit?
-- intent: internship_no_experience
-  examples: |
-    - How can I get a job or internship if I have no experience?
-    - Find internship while having no experience
-    - Internship for the first time?
-    - Apply for an internship with no experience
-- intent: internship_how_to_find_good_job
-  examples: |
-    - What can I do to increase my chances of finding a good job?
-    - What should I do to have a good internship position?
-    - What should I learn to have chance to find a good internship?
-    - Find a better internship
-- intent: internship_salary
-  examples: |
-    - What salary can I expect?
-    - How much salary can I earn for doing internship?
-    - How much paid for an internship?
-    - How much I can earn when internship?
-- intent: internship_work_hour
-  examples: |
-    - How many hours can I work as a student?
-    - How many hours should I work as an internship?
-    - How many hours should I spent for internship?
-- intent: internship_avoid
-  examples: |
-    - What should I avoid in an internship?
-    - Things to avoid in internship?
-    - What should I stay away from while interning?
-    - What should I steer clear of while interning?
-    - What do I need to avoid in an internship?
-    - What should I avoid when interning?
-    - What should I avoid during my internship?
-    - What should I avoid throughout my internship?
-- intent: internship_requirement_for_credit
-  examples: |
-    - What are the requirements in order to receive credit for my internship?
-    - Requirements for receive credit for internship
-    - What conditions must be met for my internship to count toward my degree?
-    - What conditions must be met in order for my internship to be recognized?
-    - What are the prerequisites for receiving credit for my internship?
-    - What are the requirements for receiving credit for my internship?
-    - What do I need to do in order to receive credit for my internship?
-- intent: internship_role_and_responsibility
-  examples: |
-    - What are the role and responsibility of me in an internship?
-    - What should I do during an internship?
-    - My responsibility of an internship
-    - And what are the role and responsibility of me in an internship?
-    - What is my responsibility for internship?
-- intent: internship_where_and_which_places
-  examples: |
-    - Where and which places for internship?
-    - Which locations are available for internships?
-    - Where and how can I get an internship?
-    - Where and which internship opportunities are available?
-    - Where and where are internships available?
-    - Where and how can I find internships?
-    - What locations are currently available for internships?
-    - Please suggest few places to find good internship
-    - Please suggest few places to find internship
-    - Please suggest places to find internship
-    - Please suggest companies to find internship
-    - Please provide some places to find internship
-- intent: internship_about_the_assignment
-  examples: |
-    - More info about the assignment internship please
-    - Please provide more information about the internship assignment.
-    - Please provide more details about the assigned internship.
-    - Give more information about the assigned internship, please.
-    - Give us more information about the allocated internship, please.
-    - Please provide additional information about the assigned internship.
-    - Please share additional information on the appointed internship.
-    - Please provide more details about the internship.
-    - Please provide further information about the internship assignment.
-    - I would like more information about the internship assignment.
-- intent: internship_note
-  examples: |
-    - Some notes about the internship program
-    - Observations regarding the internship program
-    - Some thoughts about the internship program
-    - Concerns about the internship program
-    - Observations on the internship scheme
-    - A few thoughts on the internship program.
-    - Some tips for the internship program.
-    - The following advice is for the internship program.
-- intent: internship_purpose
-  examples: |
-    - What is the purpose of internship?
-    - What does an internship accomplish?
-    - What is the goal of an internship?
-    - What function does an internship serve?
-    - What is the aim of an internship?
-    - What does an internship seek to achieve?
-- intent: internship_result
-  examples: |
-    - What the students need to achieve after finish an internship?
-    - What must students accomplish after completing an internship?
-    - What do students need to accomplish after completing an internship?
-    - What should students do after completing an internship?
-    - What must I accomplish once my internship are complete?
-    - What must students accomplish once their internships are complete?
-- intent: internship_content
-  examples: |
-    - What topic the students can do an internship?
-    - What areas of study are available for internships?
-    - What subjects may students choose for their internships?
-    - What kind of topics can the students do an internship on?
-    - What are the possible internship topics for students?
-    - What topics can I do an internship on?
-    - Topics students may choose to do an internship on
-    - What subjects am I able to intern in?
-- intent: internship_plan
-  examples: |
-    - What is the schedule time of internship?
-    - What is the internship schedule time?
-    - How long is the internship scheduled to last?
-    - What is the schedule for internships?
-    - What timetable applies to internships?
-    - Which schedule is applicable to internships?
-    - What is the timeframe for internships?
-    - What is the internship timetable?
-- intent: internship_diff_employee
-  examples: |
-    - How is an intern different than an employee?
-    - What distinguishes an intern from a regular employee?
-    - What distinguishes an intern from an employee?
-    - What distinguishes an intern from a regular employee?
-    - What distinguishes an intern from a worker?
-    - What makes an intern different from an employee?
-    - What separates an intern from a regular employee?
-    - What distinguishes an intern from a full-time employee?
-    - How are interns and full-time employees different from one another?
-    - How do full-time professionals and interns vary from each other?
-- intent: internship_requirement_for_complete
-  examples: |
-    - What criteria do I need to meet in order to complete an internship?
-    - What requirements must I fulfill in order to successfully complete an internship?
-    - What requirements must I satisfy in order to finish an internship?
-    - How do I fulfill the requirements for an internship?
-    - What criteria do I need to meet in order to be considered for an internship?
-    - What are the requirements for finishing an internship?
-    - What conditions must I meet in order to complete an internship?
-    - What are the requirements for completing an internship?
-- intent: internship_how_to_choose
-  examples: |
-    - How do I choose the right internship?
-    - How can I pick the best internship?
-    - How do I pick the best internship for me?
-    - Which internship should I choose?
-    - How should I choose my internship?
-    - How do you choose the best internship for my career?
-    - How do you decide which internship is ideal for my career?
-    - How do you select the greatest internship for my career?
-- intent: internship_after_finish
-  examples: |
-    - What should I do after I finish the internship?
-    - What should I do when my internship is over?
-    - What should I do when I complete my internship?
-    - After my internship is over, what should I do?
-    - What should I do after completing my internship?
-    - What should I do after I complete my internship?
-    - After my internship is over, what should I do?
-    - After my internship comes to an end, what I should do?
-    - What should I do next after completing my internship?
-    - After completing the internship, what should I do next?
-- intent: internship_thoi_gian
-  examples: |
-    - Thoi gian thuc tap thuc te la bao lau
-    - Bao lau thi hoan thanh thuc tap thuc te
-
-- intent: internship_lam_sao
-  examples: |
-    - Lam sao tim duoc cong ty thuc tap
-    - Lam the nao de tim duoc cong ty thuc tap
+    - I have vaginal bleeding for three years. No pain . I would like to know why.
+    - nageswararao i am using unicontin-e 400 tablet which purpose
+    - I am suffering from PATM, any cure for this. People are cough sneeze and clear throat when they around me. This makes me crazy
+    - is it possible to get rabies from touching a syringe that was used to give oral meds to an injured cat?
+    - i was rapping coins and my fingers  got dirty  from rapping since   my fingers  touched inside my mouth any hiv hep b,c risk
+    - I have a bit of a sore throat
+    - I have a dental infection, have taken penicillin vk 500mg 4 times daily for 10 days and it has not completely killed the infection.  Should I be concerned and what alternatives should I pursue.
+    - I have pain in my throat last 20 days I have shown to dr he was telling to me it is tonsillitis phyarangitis how much time it will take to cure
+    - I have diabetes cholesterol and digestive problems my diabetes fluctuates many times from high to low low to high I have digestive problems too what whenever I eat food I go for motions 4 to 5 times a day but the motions are not watery my urine gets blocked sometimes and sometimes a urine frequency increases I have done sonography and liver functioning test cholesterol test kidney test and sending my reports please tell me is it the hormonal problem of liver or kidney I am not able to pass my urine properly. I get scanty periods  and I am unmarried. Pls advice me why my urine gets blocked. And digestive problems diabetes are bcz of Hormonal disorder. I have done many time urine routine test. Reports show either infection or normal
+    - I am very much worried what should I do. Pls advice me. I am sending my reports
+    - what causes tingling across shoulders, top of arms, and tingling in fingers
+    - My Glucose Fasting is 242 mg/dl and Glucose PP is 256 mg/dl
+    - Can I still catch walking pneumonia with strong lungs
+    - Will a HIDA scan help in the diagnosis of Habba Syndrome?
+    - Will masturbation cause weakness in nerves?
+    - Could lack of hair growth be due to masturbation?
+    - How to get rid of semen leakage?
+    - Suggest treatment for groin causing bulge in the groin
+    - What causes blood in semen?
+    - What causes cognitive impairment after concussions?
+    - What causes hallucinations?
+    - What causes the heartbeat to stop?

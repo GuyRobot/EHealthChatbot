@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Response healthcare question
+  steps:
+  - intent: healthcare
+  - action: action_utter_healthcare

@@ -1,45 +1,17 @@
 version: '2.0'
-config:
-  store_entities_as_slots: true
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-  - internship_benefit
-  - internship_how_to_find
-  - internship_what_is
-  - internship_role_and_responsibility
-  - greet
-  - thankyou
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - internship_when
-  - internship_academic_credit
-  - internship_no_experience
-  - internship_how_to_find_good_job
-  - internship_salary
-  - internship_work_hour
-  - internship_avoid
-  - internship_requirement_for_credit
-  - internship_where_and_which_places
-  - internship_about_the_assignment
-  - internship_note
-  - internship_purpose
-  - internship_result
-  - internship_content
-  - internship_plan
-  - internship_requirement_for_complete
-  - internship_how_to_choose
-  - internship_after_finish
-  - internship_diff_employee
-  - internship_lam_sao
-  - internship_thoi_gian
-entities: []
-slots: {}
+- greet
+- mood_great
+- thankyou
+- healthcare
+- goodbye
+- affirm
+- deny
+- mood_unhappy
+- bot_challenge
 responses:
   utter_you_are_welcome:
   - text: You are welcome.
@@ -147,17 +119,17 @@ responses:
   - custom:
       html: "<ul>\n  <li>Ask your supervisor for a written recommendation for future employment prospects and for permission to use his or her name as a positive employment reference.</li>\n  <li>Send thank you notes promptly to everyone in the company for whom you worked.</li>\n  <li>Maintain contact with your supervisor. Let him or her know about your ongoing career plans and goals.</li>\n</ul>"
   utter_internship_thoi_gian:
-    - text: "2 thang"
+  - text: 2 thang
   utter_internship_lam_sao:
-    - text: "Khoa se tao ra danh sach cong cty de lua chon"
+  - text: Khoa se tao ra danh sach cong cty de lua chon
 actions:
-- action_utter_internship_plan
+- action_utter_healthcare
 - utter_goodbye
 - utter_greet
+- utter_happy
 - utter_internship_benefit
 - utter_internship_definition
 - utter_internship_diff_employee
 - utter_internship_how_to_find
 - utter_internship_role_and_responsibility
-forms: {}
-e2e_actions: []
+- utter_you_are_welcome
